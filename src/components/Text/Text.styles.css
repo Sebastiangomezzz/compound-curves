@@ -1,0 +1,14 @@
+.services-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+}
+.services-list li{
+    background-color: gray;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

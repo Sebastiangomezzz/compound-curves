@@ -1,0 +1,25 @@
+.form-div {
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+  background-color: blue;
+  width: 325px;
+  padding: 20px 20px;
+}
+.form-control {
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+.form-title{
+    color:white;
+    font-size:2rem;
+    padding: 0;
+    margin: 10px 0 25px 0;
+}

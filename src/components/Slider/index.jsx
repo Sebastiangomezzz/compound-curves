@@ -20,18 +20,58 @@ function Slider() {
         itemsToPreload={10}
         infiniteLoop
         useFullWidth={true}
-        slideSpeed={500}
+        slideSpeed={1000}
       >
-        <img src={image1} style={{ maxWidth: "90%" }} alt="slider-bi1" />
-        <img src={image2} style={{ maxWidth: "90%" }} alt="slider-bi2" />
-        <img src={image3} style={{ maxWidth: "90%" }} alt="slider-bi3" />
-        <img src={image4} style={{ maxWidth: "90%" }} alt="slider-bi4" />
-        <img src={image45} style={{ maxWidth: "90%" }} alt="slider-bi4.5" />
-        <img src={image5} style={{ maxWidth: "90%" }} alt="slider-bi5" />
-        <img src={image6} style={{ maxWidth: "90%" }} alt="slider-bi6" />
-        <img src={image7} style={{ maxWidth: "90%" }} alt="slider-bi7" />
-        <img src={image8} style={{ maxWidth: "90%" }} alt="slider-bi8" />
-        <img src={image9} style={{ maxWidth: "90%" }} alt="slider-bi9" />
+        <img
+          src={image1}
+          style={{ maxWidth: "80%", maxHeight: "80vh" }}
+          alt="slider-bi1"
+        />
+        <img
+          src={image2}
+          style={{ maxWidth: "80%", maxHeight: "80vh" }}
+          alt="slider-bi2"
+        />
+        <img
+          src={image3}
+          style={{ maxWidth: "80%", maxHeight: "80vh" }}
+          alt="slider-bi3"
+        />
+        <img
+          src={image4}
+          style={{ maxWidth: "80%", maxHeight: "80vh" }}
+          alt="slider-bi4"
+        />
+        <img
+          src={image45}
+          style={{ maxWidth: "80%", maxHeight: "80vh" }}
+          alt="slider-bi4.5"
+        />
+        <img
+          src={image5}
+          style={{ maxWidth: "80%", maxHeight: "80vh" }}
+          alt="slider-bi5"
+        />
+        <img
+          src={image6}
+          style={{ maxWidth: "80%", maxHeight: "80vh" }}
+          alt="slider-bi6"
+        />
+        <img
+          src={image7}
+          style={{ maxWidth: "80%", maxHeight: "80vh" }}
+          alt="slider-bi7"
+        />
+        <img
+          src={image8}
+          style={{ maxWidth: "80%", maxHeight: "80vh" }}
+          alt="slider-bi8"
+        />
+        <img
+          src={image9}
+          style={{ maxWidth: "80%", maxHeight: "80vh" }}
+          alt="slider-bi9"
+        />
       </ReactSlidy>
     </div>
   );
