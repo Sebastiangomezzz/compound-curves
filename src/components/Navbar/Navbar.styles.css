@@ -6,6 +6,7 @@
   align-items: center;
   align-content: stretch;
   background-color: #75d5f5;
+  height: 10vh;
   position: sticky;
   overflow:hidden;
   top: 0;
@@ -13,8 +14,8 @@
   z-index: 25;
 }
 .navbar-logo {
-  height: 20px;
-  margin-left: 10px;
+  height: 50px;
+  margin-left: 20px;
 }
 
 .navbar-list {
@@ -29,5 +30,7 @@
 }
 
 .navbar-list-item {
-  margin-right: 10px;
+  margin-right: 20px;
+  font-size: 1.5rem;
+  text-decoration: none;
 }

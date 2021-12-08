@@ -19,7 +19,7 @@ function Slider() {
       <ReactSlidy
         itemsToPreload={10}
         infiniteLoop
-        slidespeed={800}
+        slidespeed={1200}
         keyboardNavigation={true}
         navigateByKeyboard={true}
       >

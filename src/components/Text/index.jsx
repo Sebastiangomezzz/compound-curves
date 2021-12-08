@@ -1,5 +1,4 @@
 import React from "react";
-import Slider from "../Slider";
 import './Text.styles.css'
 
 function Text() {
@@ -14,7 +13,6 @@ function Text() {
         Our <strong>mission</strong> is to help companies reach new heights, by
         telling stories through powerbi dashboards.
       </p>
-      <Slider />
       <ul className="services-list">
         <li>Data Analitics</li>
         <li>Business intelligence</li>
