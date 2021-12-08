@@ -1,4 +1,16 @@
-.services-list{
+.page-text1 {
+    top: 60px;
+    margin: 100px 15px 0 15px;
+    font-size: 1.5rem;
+}
+
+.page-text2 {
+    top: 60px;
+    margin: 50px 15px 100px 15px;
+    font-size: 1.5rem;
+}
+
+.services-list {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -6,9 +18,25 @@
     justify-content: space-around;
     align-items: center;
     align-content: stretch;
+    margin: 80px 0 100px 0;
 }
-.services-list li{
+
+.services-list li {
     background-color: gray;
     padding: 5px 10px;
     border-radius: 5px;
+}
+
+@media (max-width: 500px) {
+    .services-list {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        align-content: stretch;
+    }
+    .services-list li{
+        margin-top: 40px;
+    }
 }

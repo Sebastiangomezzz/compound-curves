@@ -10,8 +10,8 @@ import image6 from "../../img/6.jpg";
 import image7 from "../../img/7.jpg";
 import image8 from "../../img/8.jpg";
 import image9 from "../../img/9.jpg";
-import "./Slider.styles.css";
 import "react-slidy/lib/styles.css";
+import "./Slider.styles.css";
 
 function Slider() {
   return (
@@ -19,8 +19,9 @@ function Slider() {
       <ReactSlidy
         itemsToPreload={10}
         infiniteLoop
-        useFullWidth={true}
-        slideSpeed={1000}
+        slidespeed={800}
+        keyboardNavigation={true}
+        navigateByKeyboard={true}
       >
         <img
           src={image1}
@@ -73,6 +74,7 @@ function Slider() {
           alt="slider-bi9"
         />
       </ReactSlidy>
+      <p className="slider-text">Use arrow keys to navigate between slides</p>
     </div>
   );
 }

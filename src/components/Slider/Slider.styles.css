@@ -1,0 +1,11 @@
+@media (max-width: 500px) {
+    .slider-container{
+        max-width: 95%;
+    }
+}
+.slider-container ul{
+    margin-bottom: 0;
+}
+.slider-text{
+    margin-top:0;
+}
