@@ -3,11 +3,14 @@
     margin: 100px 15px 0 15px;
     font-size: 1.5rem;
 }
-
 .page-text2 {
     top: 60px;
     margin: 50px 15px 100px 15px;
     font-size: 1.5rem;
+}
+.landing {
+    font-size: 2rem;
+    color: blueviolet;
 }
 
 .services-list {
@@ -22,12 +25,13 @@
 }
 
 .services-list li {
+    font-size: 1.5em;
     background-color: gray;
-    padding: 5px 10px;
-    border-radius: 5px;
+    padding: 2px 15px;
+    border-radius: 10px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 618px) {
     .services-list {
         display: flex;
         flex-direction: column;

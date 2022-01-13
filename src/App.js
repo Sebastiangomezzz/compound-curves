@@ -8,18 +8,21 @@ import Contact from './components/pages/Contact';
 import Footer from './components/Footer';
 
 
+
 function App() {
   return (
+    <div id='outer-container'>
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Landing />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path='/' element={<Landing />} />
+          <Route path='/services' element={<Services />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
 
         <Footer />
       </Router>
+    </div>
   );
 }
 
