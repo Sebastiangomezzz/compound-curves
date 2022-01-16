@@ -1,6 +1,20 @@
 .badges {
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-top: 25px;
+}
+
+@media (max-width: 768px) {
+    .badges {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+    }
+    .linkedin-badge {
+        margin: 50px 0 0 0;
+    }
 }

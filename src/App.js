@@ -1,30 +1,21 @@
 import './App.css';
-import React from 'react'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React from 'react';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Landing from './components/pages/Landing';
 import Services from './components/pages/Services';
 import Contact from './components/pages/Contact';
-import Footer from './components/Footer';
-
-
 
 function App() {
   return (
-    <div id='outer-container'>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path='/' element={<Landing />} />
-          <Route path='/services' element={<Services />} />
-          <Route path='/contact' element={<Contact />} />
-        </Routes>
-
-        <Footer />
-      </Router>
+    <div>
+      <Navbar />
+      <Landing />
+      <Services />
+      <Contact />
+      <Footer />
     </div>
   );
 }
 
 export default App;
-

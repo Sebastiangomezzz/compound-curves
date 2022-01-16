@@ -1,16 +1,18 @@
 .page-text1 {
     top: 60px;
-    margin: 100px 15px 0 15px;
+    margin: 100px 10px 0 25px;
     font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .page-text2 {
     top: 60px;
-    margin: 50px 15px 100px 15px;
+    margin: 50px 15px 100px 25px;
     font-size: 1.5rem;
-}
-.landing {
-    font-size: 2rem;
-    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .services-list {
@@ -25,13 +27,18 @@
 }
 
 .services-list li {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
     font-size: 1.5em;
-    background-color: gray;
-    padding: 2px 15px;
+    background-color: rgb(128, 128, 128, 0.8);
+    padding: 15px 60px;
     border-radius: 10px;
 }
 
-@media (max-width: 618px) {
+@media (max-width: 696px) {
     .services-list {
         display: flex;
         flex-direction: column;
@@ -39,8 +46,19 @@
         justify-content: flex-start;
         align-items: center;
         align-content: stretch;
+        margin: auto;
     }
     .services-list li{
         margin-top: 40px;
+    }
+    .page-text2 {
+        margin: 50px 15px 40px 25px;
+        
+    }
+}
+
+@media (max-width: 400px){
+    .services-list{
+        padding-left:0;
     }
 }
